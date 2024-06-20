@@ -5,20 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <label for="Aiden kataminsky">
-        input number or sometinhfg
+        input user name
     </label>
     
-    <input type="string" name="Aiden kataminsky" id="inputForSubmit">
+    <input type="string" name="Aiden kataminsky" id="submitUserName">
     <br><br>
+
+    <label for="Mor Cohen">
+        input passsword
+    </label>
+    
+    <input type="string" name="Mor Cohen" id="submitPassWord">
+    <br><br>
+
+    <p id="loginResult"></p>
     <button onclick="onButtonClick()">sumbit</button>    
 
     <script>
         function onButtonClick()
         {
-            var input = document.getElementById("inputForSubmit").value.toString();
-            alert(input);
+            const username = document.getElementById("submitUserName").value.toString();
+            const password = document.getElementById("submitPassWord").value.toString();
+            let loginResP = document.getElementById("loginResult");
+
+            console.log(loginResP);
+            if(username === "coolUser@gmail.com" && password === "12345")
+            {
+                loginResP.innerText = "User Found!"
+            }
+            else
+            {
+                loginResP.innerText = "No such user found"
+            }
+
         }
     </script>
 </body>
