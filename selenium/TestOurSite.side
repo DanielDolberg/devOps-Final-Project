@@ -1,0 +1,520 @@
+{
+  "id": "7e9a6d9b-b494-4e1f-91e6-6611313b5b0c",
+  "version": "2.0",
+  "name": "devopsGatLing",
+  "url": "http://localhost:8081/Daniel-Dolberg_Yonatan-Refael_Aiden-Kaminsky/",
+  "tests": [{
+    "id": "b0d53bfe-bdd6-4ed9-8440-fcceedb6f5d1",
+    "name": "TheTest",
+    "commands": [{
+      "id": "a6317316-50fa-46a0-82e4-fc7f95d4b197",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c87f11cf-9134-41a6-a53d-73df9d925937",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitUserName",
+      "targets": [
+        ["id=submitUserName", "id"],
+        ["name=Aiden kataminsky", "name"],
+        ["css=#submitUserName", "css:finder"],
+        ["xpath=//input[@id='submitUserName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7301e60f-905e-47db-ae63-5cc7340a8f80",
+      "comment": "",
+      "command": "type",
+      "target": "id=submitUserName",
+      "targets": [
+        ["id=submitUserName", "id"],
+        ["name=Aiden kataminsky", "name"],
+        ["css=#submitUserName", "css:finder"],
+        ["xpath=//input[@id='submitUserName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "abcd"
+    }, {
+      "id": "503e1eeb-af01-4450-b4a0-072aae42cc32",
+      "comment": "",
+      "command": "type",
+      "target": "id=submitPassWord",
+      "targets": [
+        ["id=submitPassWord", "id"],
+        ["name=Mor Cohen", "name"],
+        ["css=#submitPassWord", "css:finder"],
+        ["xpath=//input[@id='submitPassWord']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "0649d5c8-c586-4462-a8c5-99d124a12e77",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick='onButtonClick()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'sumbit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b701fcc-96fe-47b5-95ec-efb24fd5d5d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'No such user found')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a31ca69e-2b3d-4ea3-82d7-9ccd87fe867e",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'No such user found')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "843b9f64-7f4a-43db-8fb1-285212a8d336",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'No such user found')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5450de04-1d17-4dd4-959e-9809bb468ce8",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'No such user found')]", "xpath:innerText"]
+      ],
+      "value": "No such user found"
+    }, {
+      "id": "1ce1be75-be74-426e-950f-af4b5075e550",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9c0d495-345a-4bff-9d5d-e56e2055b588",
+      "comment": "",
+      "command": "type",
+      "target": "id=submitUserName",
+      "targets": [
+        ["id=submitUserName", "id"],
+        ["name=Aiden kataminsky", "name"],
+        ["css=#submitUserName", "css:finder"],
+        ["xpath=//input[@id='submitUserName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "master"
+    }, {
+      "id": "d20dd260-2ef0-4869-8382-b2fc686076be",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5eecc9b7-59b3-4a3e-9e74-8525315356ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=submitPassWord",
+      "targets": [
+        ["id=submitPassWord", "id"],
+        ["name=Mor Cohen", "name"],
+        ["css=#submitPassWord", "css:finder"],
+        ["xpath=//input[@id='submitPassWord']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "cd62605c-ae2d-45f0-93c0-55bb2457fcaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick='onButtonClick()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'sumbit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "335d96be-5886-4001-bdd6-656dd8f4babd",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'No such user found')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ae6b671-0d2b-4705-b3f0-374d63bdc73c",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'No such user found')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76502061-76a5-4187-9854-bf721e72028f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'No such user found')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9a5df8b-b66c-495c-9889-298fd6706711",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'No such user found')]", "xpath:innerText"]
+      ],
+      "value": "No such user found"
+    }, {
+      "id": "393cb111-7c46-4316-9681-10bf27d7d10d",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cc117f3-e9ec-499f-a7ea-5637f1fc7185",
+      "comment": "",
+      "command": "type",
+      "target": "id=submitUserName",
+      "targets": [
+        ["id=submitUserName", "id"],
+        ["name=Aiden kataminsky", "name"],
+        ["css=#submitUserName", "css:finder"],
+        ["xpath=//input[@id='submitUserName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "6ffa3720-3db5-4c4b-baa1-a4095aedb76d",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65b2b58a-accc-43b7-8ef4-98e8639837cc",
+      "comment": "",
+      "command": "type",
+      "target": "id=submitPassWord",
+      "targets": [
+        ["id=submitPassWord", "id"],
+        ["name=Mor Cohen", "name"],
+        ["css=#submitPassWord", "css:finder"],
+        ["xpath=//input[@id='submitPassWord']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "world"
+    }, {
+      "id": "07894560-5743-4841-b2a7-5071f677adcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick='onButtonClick()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'sumbit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a1df7fa-0149-464a-acb2-a97cb0c1d8e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'No such user found')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd3a12ea-589b-44a9-add2-8f12369f5f0f",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'No such user found')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e25283d-7734-423d-9feb-111ad1b12798",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'No such user found')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bc4c24d-eab7-4794-8b01-f7ae729c055c",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'No such user found')]", "xpath:innerText"]
+      ],
+      "value": "No such user found"
+    }, {
+      "id": "8971de1f-480a-4664-9296-6f4b196a1f92",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(4)",
+      "targets": [
+        ["css=label:nth-child(4)", "css:finder"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'coolUser@gmail.com')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99be2cc2-65fa-4be1-8203-f6e939cb289f",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(4)",
+      "targets": [
+        ["css=label:nth-child(4)", "css:finder"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'coolUser@gmail.com')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ad940c1-01f3-42a3-820f-f0b678455571",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=label:nth-child(4)",
+      "targets": [
+        ["css=label:nth-child(4)", "css:finder"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'coolUser@gmail.com')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a007231-df2d-4134-aabc-8d6ff900aeae",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitUserName",
+      "targets": [
+        ["id=submitUserName", "id"],
+        ["name=Aiden kataminsky", "name"],
+        ["css=#submitUserName", "css:finder"],
+        ["xpath=//input[@id='submitUserName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bee7f2f-56df-49f7-a83a-b1be2ff85ebc",
+      "comment": "",
+      "command": "type",
+      "target": "id=submitUserName",
+      "targets": [
+        ["id=submitUserName", "id"],
+        ["name=Aiden kataminsky", "name"],
+        ["css=#submitUserName", "css:finder"],
+        ["xpath=//input[@id='submitUserName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "coolUser@gmail.com"
+    }, {
+      "id": "1a93e41f-0f67-4fa1-9478-621537c98371",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed73f1fa-8da8-4002-bfdf-600429081055",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f708544e-282b-470c-bbdf-c8f7df3b593f",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitPassWord",
+      "targets": [
+        ["id=submitPassWord", "id"],
+        ["name=Mor Cohen", "name"],
+        ["css=#submitPassWord", "css:finder"],
+        ["xpath=//input[@id='submitPassWord']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dedc332-bbeb-4d09-aa7f-2258ea319796",
+      "comment": "",
+      "command": "type",
+      "target": "id=submitPassWord",
+      "targets": [
+        ["id=submitPassWord", "id"],
+        ["name=Mor Cohen", "name"],
+        ["css=#submitPassWord", "css:finder"],
+        ["xpath=//input[@id='submitPassWord']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "4059fa6f-39bc-4232-a449-5cb650f2b4b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick='onButtonClick()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'sumbit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "455e6455-d127-4f9d-b63a-cb417e8eb72b",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'User Found!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64409915-6ec2-43d0-afcb-3321282a27c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'User Found!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "328f70bc-719f-408f-ad23-7657e2930bf9",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'User Found!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "541f8a55-dc19-4ea4-81c1-4d20edbb5d2d",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=loginResult",
+      "targets": [
+        ["id=loginResult", "id"],
+        ["css=#loginResult", "css:finder"],
+        ["xpath=//p[@id='loginResult']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'User Found!')]", "xpath:innerText"]
+      ],
+      "value": "User Found!"
+    }]
+  }],
+  "suites": [{
+    "id": "c69fc1ed-ebdb-417f-a98f-1425bc45cd59",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:8081/", "http://localhost:8081/Daniel-Dolberg_Yonatan-Refael_Aiden-Kaminsky/"],
+  "plugins": []
+}
