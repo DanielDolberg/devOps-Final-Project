@@ -10,15 +10,23 @@
     <label for="Aiden kataminsky">
         input user name
     </label>
-    
+
     <input type="string" name="Aiden kataminsky" id="submitUserName">
+
+    <label style="color: white;">
+        coolUser@gmail.com
+    </label>
     <br><br>
 
     <label for="Mor Cohen">
         input passsword
     </label>
-    
+
     <input type="string" name="Mor Cohen" id="submitPassWord">
+        
+    <label style="color: white;">
+        12345
+    </label
     <br><br>
 
     <p id="loginResult"></p>
