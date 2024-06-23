@@ -41,7 +41,7 @@
             let loginResP = document.getElementById("loginResult");
 
             console.log(loginResP);
-            if(username === "coolUser@gmail.com" && password === "12345")
+            if(username === "admin" && password === "master")
             {
                 loginResP.innerText = "User Found!"
             }
